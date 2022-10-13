@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - prints tge size of various data types
- * Return 0 on proper exit
+ * Return: 0 on proper exit
 */
 int main(void)
 {
