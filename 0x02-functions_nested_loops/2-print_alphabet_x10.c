@@ -1,6 +1,7 @@
 #include "main.h"
 
-/** print_alphabet_x10 - function to print a to z using ASCII,
+/** 
+ * print_alphabet_x10 - function to print a to z using ASCII,
  * 10 times.
  * Return: 0 from _putchar()
  */
