@@ -1,4 +1,10 @@
-#include <main.h>
+#include "main.h"
+
+/**
+* main - function is the entry point of the program,
+* _purchar - function idls defined in the main.h file,
+* Return: 0 on successful exit.
+*/
 
 int main(void)
 {
@@ -11,4 +17,6 @@ int main(void)
         _putchar(a);
         _putchar(r);
         _putchar(\n);
+
+        return (0);
 }
