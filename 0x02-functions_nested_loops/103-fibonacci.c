@@ -5,6 +5,7 @@
  * do not exceed 4000000
  * Return: 0 on success
  */
+ 
 int main(void)
 {
 	int i;
@@ -16,14 +17,16 @@ int main(void)
 
 	for (i = 1; i <= 50; i++)
 	{
-		if ((first < 4000000) && ((i % 2) == 0))
+		if ((first < 4000000) && ((first % 2) == 0))
 		{
 			sum += first;
-			next = first + second;
-			first = second;
-			second = next;
 		}
+		next = first + second;
+		first = second;
+		second = next;
 	}
+
 	printf("%ld\n", sum);
+
 	return (0);
 }
