@@ -5,7 +5,7 @@
  * do not exceed 4000000
  * Return: 0 on success
  */
- 
+
 int main(void)
 {
 	int i;
